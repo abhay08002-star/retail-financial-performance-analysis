@@ -1,0 +1,78 @@
+Slide 1: 
+Cleaned Area Size = IF(ISBLANK(SUM('state_demographics'[Area (km)])), 0, SUM('state_demographics'[Area (km)]))
+
+Slide 2: 
+Total Australian Population = SUM('state_demographics'[Population (Sept 2022)])
+
+Total Land Area Size = SUM('state_demographics'[Area (km)])
+
+Total House Representatives = SUM('state_demographics'[No. of Reps. in Aus House])
+
+Slide 3:
+Average Regional Population Density = AVERAGE('state_demographics'[Population Density (/km)])
+
+Slide 4:
+Population Share % = 
+DIVIDE(
+    [Total Australian Population], 
+    CALCULATE([Total Australian Population], ALL('state_demographics')), 
+    0
+)
+
+Slide 5:
+Official State Count = 
+CALCULATE(
+    DISTINCTCOUNT('state_demographics'[State]),
+    NOT('state_demographics'[Governor] IN {"None", "Vacant"})
+)
+
+Slide 6:
+Regional Density Rank = 
+RANKX(
+    ALLSELECTED('state_demographics'), 
+    [Average Regional Population Density], 
+    , 
+    DESC, 
+    Dense
+)
+
+Slide 7:
+Land Area Share % = 
+DIVIDE(
+    [Total Land Area Size], 
+    CALCULATE([Total Land Area Size], ALL('state_demographics')), 
+    0
+)
+
+Slide 8:
+Citizens Per Representative = 
+DIVIDE(
+    [Total Australian Population], 
+    [Total House Representatives], 
+    0
+)
+
+Slide 9:
+Average Regional Population = 
+CALCULATE(
+    AVERAGE('state_demographics'[Population (Sept 2022)]),
+    'state_demographics'[Population (Sept 2022)] > 0
+)
+
+Slide 10:
+Is Low Population Territory = 
+IF(
+    [Total Australian Population] < 10000 && [Total Australian Population] > 0, 
+    1, 
+    0
+)
+
+Slide 11:
+Zone Classification Status = 
+SWITCH(
+    TRUE(),
+    [Total Australian Population] = 0, " Unpopulated Research Zone",
+    [Total Australian Population] < 10000, "Low-Population Territory",
+    "Standard Active Region"
+)
+
