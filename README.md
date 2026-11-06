@@ -9,6 +9,7 @@ Strategic Regional Presentation By Slide:
 
 Slide 1: Core System Schema
 I created the primary staging schema tables to store geographical, legislative, and population metrics cleanly.
+https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/1.png
 
 Slide 2: High-Level Country Performance
 I tracked high-level gross metrics across the entire database, including total population, land area, and House seats.
