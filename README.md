@@ -83,4 +83,5 @@ Resource Optimization: Strategy teams can filter out low-population zones and un
 📁 Project Repository Files
 
 • analysis.sql: Clean, readable SQL script covering all 11 slides of data analysis totals.
+https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/1.png
 https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/DOPPlYmBnx.png
