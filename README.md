@@ -24,57 +24,58 @@ Data contains flat transactional ledger records tracking active Australian state
 
 5. Features 
 
-• Business Problem
+a) Business Problem
 Public sector committees, corporate expansion planners, and research analysts often struggle to parse messy, multi-row geographic records. Key operational questions such as: Which states hold the highest population concentration hubs? How is legislative representation balanced relative to regional size? Where are the massive, unpopulated research zones located? ... are highly inefficient to answer using raw flat files.
 
-• Goal of the Dashboard
+b) Goal of the Dashboard
 To deliver an interactive, high-density matrix visual tool that:
 Enables users to explore regional data distributions across the country instantly.
 Supports critical decisions regarding local infrastructure investments, market expansions, and resource allocation.
 Uncovers hidden operational bottlenecks by connecting population output directly to legislative weight and land mass.
 
-Walkthrough of Key Visuals
+c) Walkthrough of Key Visuals
 
 https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/1.png
 
 https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/DOPPlYmBnx.png
 
-High-Level Global KPIs (Top Metrics)
+d) High-Level Global KPIs (Top Metrics)
 Total Australian Population: Combined aggregate sum of all active regional residents.
 Total Land Area Size: Total square-mile area footprint managed through the tracking network.
 Total House Representatives: Complete sum of legislative seats active in the house.
-Cross-Regional Matrix Table (Primary Center Visual)
 
-A high-density reporting grid that breaks down Population, Area, Density, and Rep Seats simultaneously. Every cell is automatically ranked by size, allowing executive users to isolate performance matrices in under 30 seconds.
+e) Cross-Regional Matrix Table (Primary Center Visual)
+
+f) A high-density reporting grid that breaks down Population, Area, Density, and Rep Seats simultaneously. Every cell is automatically ranked by size, allowing executive users to isolate performance matrices in under 30 seconds.
 Conditional Status Indicators (Color Tags)
 
-Programmed visual rule logic that automatically tags row lines based on strict population and metric boundaries:
+g) Programmed visual rule logic that automatically tags row lines based on strict population and metric boundaries:
 High Volume Hubs: Highlights primary growth vehicles holding massive infrastructure footprints.
 Moderate Segments: Displays standard baseline territory lines.
 Low Volume Alerts: Flags developing or small offshore islands for full administrative tracking.
 
-Population Share Percentages (Distribution Loop)
+h) Population Share Percentages (Distribution Loop)
 A calculated query loop that measures the exact percentage share of the country's population that each specific territory claims, exposing heavy urbanization trends.
 
-Official State Deep-Dive View (Context Filter)
+i) Official State Deep-Dive View (Context Filter)
 A dedicated filtered view that strips away unpopulated anchorage zones to isolate official states with active, recognized local governors.
 
-Regional Population Density Rankings (Crowding Sort)
+j) Regional Population Density Rankings (Crowding Sort)
 An operational column sort that programmatically ranks regions by population density to pinpoint heavily crowded municipal zones.
 
 Land Size Area Distribution Mix (Area Share Loop)
 A data loop that measures the exact percentage of land size each territory claims relative to the global country size, highlighting massive, sparsely populated research zones.
 
-House Representation Weight Mix (Legislative Balancing)
+k) House Representation Weight Mix (Legislative Balancing)
 An analytical formula view that evaluates representation balance by calculating exactly how many individual citizens are backed per assigned House seat.
 
-Average Baseline Metrics (Country Standards)
+l) Average Baseline Metrics (Country Standards)
 Produces standard country averages for regional populations, land size dimensions, and seat outputs to serve as historical control parameters.
 
-Low-Population Territory Truncation (Small Segment Filter)
+m) Low-Population Territory Truncation (Small Segment Filter)
 A specific query filter that isolates small or developing offshore islands holding under 10,000 residents to streamline corporate site planning.
 
-Unpopulated Research Zone Summary (0-Resident Filter)
+n) Unpopulated Research Zone Summary (0-Resident Filter)
 A diagnostic view that automatically flags unique zones that hold 0 residents or are managed under external offshore anchorage rules.
 
 Business Impact & Insights
@@ -85,5 +86,6 @@ Resource Optimization: Strategy teams can filter out low-population zones and un
 
 📁 Project Repository Files
 
-• analysis.sql: Clean, readable SQL script covering all 11 slides of data analysis totals.
+1) analysis.sql: Clean, readable SQL script covering all 11 slides of data analysis totals.
+2) Dax expression
 
