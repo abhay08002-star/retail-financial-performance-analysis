@@ -63,19 +63,19 @@ A dedicated filtered view that strips away unpopulated anchorage zones to isolat
 j) Regional Population Density Rankings (Crowding Sort)
 An operational column sort that programmatically ranks regions by population density to pinpoint heavily crowded municipal zones.
 
-Land Size Area Distribution Mix (Area Share Loop)
+k) Land Size Area Distribution Mix (Area Share Loop)
 A data loop that measures the exact percentage of land size each territory claims relative to the global country size, highlighting massive, sparsely populated research zones.
 
-k) House Representation Weight Mix (Legislative Balancing)
+l) House Representation Weight Mix (Legislative Balancing)
 An analytical formula view that evaluates representation balance by calculating exactly how many individual citizens are backed per assigned House seat.
 
-l) Average Baseline Metrics (Country Standards)
+m) Average Baseline Metrics (Country Standards)
 Produces standard country averages for regional populations, land size dimensions, and seat outputs to serve as historical control parameters.
 
-m) Low-Population Territory Truncation (Small Segment Filter)
+n) Low-Population Territory Truncation (Small Segment Filter)
 A specific query filter that isolates small or developing offshore islands holding under 10,000 residents to streamline corporate site planning.
 
-n) Unpopulated Research Zone Summary (0-Resident Filter)
+o) Unpopulated Research Zone Summary (0-Resident Filter)
 A diagnostic view that automatically flags unique zones that hold 0 residents or are managed under external offshore anchorage rules.
 
 Business Impact & Insights
