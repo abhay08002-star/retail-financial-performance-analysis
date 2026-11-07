@@ -11,10 +11,15 @@ The Australian Demographics Dashboard is a structured Power BI report designed t
 3. Tech Stack
 
 The dashboard was built using the following tools and technologies:
+
 • Power BI Desktop: Main data visualization platform used for report creation and matrix design.
+
 • Power Query: Data transformation layer used for reshaping, text-trimming, and preparing column fields.
+
 • DAX (Data Analysis Expressions): Used for calculated baseline measures, margin evaluations, and conditional logic.
+
 • Data Modeling: Indentation-based structural metadata managed via Tabular Model Definition Language (TMDL) properties.
+
 • File Format: .pbix for development binary storage, .sql for query scripting, and .png for dashboard previews.
 
 4. Data Source
