@@ -1,8 +1,9 @@
-1. Project Title 
+1. Project Title
+   
 Australian Demographics and Regional Analytics Dashboard
 A dynamic data visualization tool built to explore territorial metrics across Australia—focusing on regional comparisons, legislative representations, land area distribution, and population density mapping.
 
-2. Short Description 
+3. Short Description 
 
 The Australian Demographics Dashboard is a structured Power BI report designed to help users explore and compare population and land statistics across active Australian states and territories. The dashboard focuses on highlighting regional features like population share, house representation weight, and sparsely populated research zones to turn flat metrics into clear data stories. This tool is intended for use by demographic analysts, research bodies, government planning committees, and data-driven strategists who seek to understand public regional trends.
 
