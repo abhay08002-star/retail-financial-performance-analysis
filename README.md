@@ -45,6 +45,8 @@ https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/ma
 
 https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/Slide%203.mp4
 
+https://github.com/abhay08002-star/retail-financial-performance-analysis/blob/main/PBIDesktop_4jkUVo9PGQ.mp4
+
 
 d) High-Level Global KPIs (Top Metrics)
 Total Australian Population: Combined aggregate sum of all active regional residents.
