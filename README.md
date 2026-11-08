@@ -1,7 +1,7 @@
 1. Project Title
    
 Australian Demographics and Regional Analytics Dashboard
-A dynamic data visualization tool built to explore territorial metrics across Australia—focusing on regional comparisons, legislative representations, land area distribution, and population density mapping.
+A dynamic data visualization tool built to explore territorial metrics across Australia focusing on regional comparisons, legislative representations, land area distribution, and population density mapping.
 
 3. Short Description 
 
